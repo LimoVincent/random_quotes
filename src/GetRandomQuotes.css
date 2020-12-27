@@ -1,0 +1,40 @@
+body {
+ font-family: sans-serif;
+ margin: 0%;
+ padding: 0%;
+ text-align: center;
+ background: #dfd5d5;
+}
+
+#quote-box {
+ display: inline-block;
+ background: rgb(238, 174, 202);
+ background: radial-gradient( circle, rgba(238, 174, 202, 1) 25%, rgba(148, 187, 233, 1) 85%);
+ margin: 10% 30%;
+ border-radius: 10px;
+ padding: 3em;
+ font-weight: 800;
+}
+
+/* button */
+
+#new-quote {
+ background-color: whitesmoke;
+ border-radius: 10px;
+ padding: 1.5em;
+}
+
+#new-quote:hover {
+ /*  color: #000000;
+   background-color: #ffffff; */
+ background-color: rgb(196, 181, 181);
+}
+
+#tweet-quote {
+ padding: 2%;
+ color: rgb(61, 59, 59);
+}
+
+#text {
+ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
